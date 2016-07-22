@@ -2,7 +2,7 @@
 It consumes RESTFUL API connected to mongodb database (42labs)<br/>
 Use CMD to enter the folder 42 labs and enter the command : set DEBUG=42labs:* & npm start (Express-generator)<br />
 #POSTMAN extension
-This library management system has Oauth Protocol and Oauth Protocol2 (facebook) and only admin can access the <br /> POST : http://localhost/8080/books , <br />GET : http://localhost/8080/books/[id], <br />PUT : http://localhost/8080/books/[id], <br />DELETE: http://localhost/8080/books/[id]<br />
+This library management system has Oauth Protocol(Token-based Authentication) and Oauth Protocol2 (facebook-token based authentication) and only admin can access the <br /> POST : http://localhost/8080/books , <br />GET : http://localhost/8080/books/[id], <br />PUT : http://localhost/8080/books/[id], <br />DELETE: http://localhost/8080/books/[id]<br />
 Admin : "username":"Anirudha", "password":"123"<br />
 To Create document of the book in the system , pass BookName, Rating , Type, Classification and Author as provided in the schema<br />
 The RESTFUL API requires the json web token to be passed as an authorization header.<br />
