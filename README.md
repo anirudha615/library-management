@@ -12,4 +12,6 @@ http://localhost/8080/users/login allows to get logged in.<br />
 http://localhost/8080/location will allow us to get the ip of the user (not saved in database)<br />
 http://localhost/8080/users/facebook will get to authenticate the user through facebook<br />
 http://localhost/8080/users will allow the admin to see the total number of users registered.<br />
-The Redis Server will be on default port 6379 and the key used is "hi". The max memory is set to 20mb in the .CONF file
+The Redis Server will be on port 8081 and the key used is "hi". The max memory is set to 20mb in the 8081.CONF file
+Start the server using redis-server.exe 8081.conf
+And the client using redis-cli.exe -h 127.0.0.1 -p 8081 (conf file is uploaded).
